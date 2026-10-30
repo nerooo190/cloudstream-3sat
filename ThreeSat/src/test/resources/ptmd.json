@@ -1,0 +1,21 @@
+{
+  "priorityList": [{"formitaeten": [
+    {"facets": ["hls"], "qualities": [{"quality": "auto", "audio": {"tracks": [
+      {"uri": "https://cdn.example/master.m3u8?token=short-lived", "language": "deu", "class": "main"},
+      {"uri": "https://cdn.example/master.m3u8?token=short-lived", "language": "deu", "class": "main"},
+      {"uri": "http://cdn.example/insecure.m3u8"}
+    ]}}]},
+    {"facets": ["progressive"], "qualities": [{"quality": "hd", "highestVerticalResolution": 720, "audio": {"tracks": [
+      {"uri": "https://cdn.example/video.mp4", "language": "deu", "class": "main"}
+    ]}}]},
+    {"facets": ["dash"], "qualities": [{"quality": "auto", "audio": {"tracks": [
+      {"uri": "https://cdn.example/ad.mpd", "language": "deu", "class": "ad"}
+    ]}}]},
+    {"facets": ["widevine"], "qualities": [{"audio": {"tracks": [{"uri": "https://cdn.example/protected.mpd"}]}}]}
+  ]}],
+  "captions": [
+    {"uri": "https://cdn.example/subs.vtt", "language": "deu"},
+    {"uri": "https://cdn.example/subs.vtt", "language": "deu"},
+    {"uri": "file:///tmp/private", "language": "deu"}
+  ]
+}

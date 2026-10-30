@@ -38,6 +38,14 @@ veröffentlicht das Plugin und künftige Updates auf dem Branch `builds`.
 
 5. Im hinzugefügten Repository **ThreeSat** installieren; der Provider erscheint als **3sat Mediathek**.
 
+Beim manuellen Upload über **Add file → Upload files** das ZIP zuerst entpacken
+und den gesamten **Inhalt** des Ordners `cloudstream-3sat` hochladen. Die Ordner
+`ThreeSat`, `gradle`, `scripts` und der versteckte Ordner `.github` müssen samt
+Unterordnern erhalten bleiben. Die Dateien im Hauptverzeichnis ebenfalls
+hochladen. Das ZIP selbst und ein lokaler `.git`-Ordner gehören nicht ins
+Repository. Der Workflow lässt sich auch nach einem Web-Upload ohne erhaltene
+Ausführungsrechte von `gradlew` starten.
+
 Der Workflow verwendet das eingebaute `GITHUB_TOKEN`; ein persönlicher Token ist nicht erforderlich. Er benötigt Schreibrechte für den Branch `builds`. Organisationsregeln oder Branchregeln müssen dies zulassen.
 
 Für einen Fork lässt sich die Quelldatei `repo.json` auf das eigene Repository anpassen. Der Workflow erzeugt die Datei auf **`builds`** automatisch mit der richtigen Adresse:
