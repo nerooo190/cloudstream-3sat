@@ -1,0 +1,24 @@
+[
+    {
+        "iconUrl": "https://www.3sat.de/assets/3sat-logo-rot-100~384x216",
+        "fileHash": "sha256-137a1bcf57769913ec6af62c6f040be40c858a8b6e575780c65d0389481afc61",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/nerooo190/cloudstream-3sat",
+        "fileSize": 23154,
+        "status": 1,
+        "language": "de",
+        "authors": [
+            "3sat Cloudstream Contributors"
+        ],
+        "tvTypes": [
+            "Movie",
+            "TvSeries",
+            "Live"
+        ],
+        "version": 1,
+        "internalName": "ThreeSat",
+        "description": "3sat-Mediathek: Dokumentationen, Wissen, Kultur, Kabarett und Livestream.",
+        "url": "https://raw.githubusercontent.com/nerooo190/cloudstream-3sat/builds/ThreeSat.cs3",
+        "name": "ThreeSat"
+    }
+]
