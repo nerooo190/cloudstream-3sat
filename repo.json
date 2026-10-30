@@ -1,0 +1,8 @@
+{
+  "name": "3sat Mediathek",
+  "description": "Inoffizielles Cloudstream-Plugin für die öffentlich zugängliche 3sat-Mediathek.",
+  "manifestVersion": 1,
+  "pluginLists": [
+    "https://raw.githubusercontent.com/nerooo190/cloudstream-3sat/builds/plugins.json"
+  ]
+}

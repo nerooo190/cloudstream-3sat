@@ -1,0 +1,11 @@
+The project structure, build configuration and Gradle wrapper are based on
+the official Cloudstream TestPlugins template:
+https://github.com/recloudstream/TestPlugins
+
+The Gradle wrapper is distributed under the Apache License, Version 2.0.
+See https://www.apache.org/licenses/LICENSE-2.0 and the notices embedded in
+gradlew, gradlew.bat and gradle/wrapper/gradle-wrapper.jar.
+
+Cloudstream, the Cloudstream Gradle plugin and third-party libraries retain
+their respective licenses. The MIT license in this repository applies to
+the new provider, tests, documentation and repository helper code.
