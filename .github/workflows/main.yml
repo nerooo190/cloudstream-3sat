@@ -1,2 +1,0 @@
-- name: build-and-publish
-  uses: actions-mn/build-and-publish@main
